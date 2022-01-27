@@ -5,9 +5,9 @@ $message = "Hello";
 $showMessage = function() use ($message) : void{
    $newMessage = "World";
 
-   function() use ($newMessage, $message){
+   (function() use ($newMessage, $message){
        echo $message . $newMessage;
-   };
+   })();
 
 };
 

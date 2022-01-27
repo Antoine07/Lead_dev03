@@ -40,7 +40,7 @@ $obj = new Class{};
 Depuis la version 8 de PHP vous pouvez définir des attributs de vos classes de manière très synthétique comme suit, passage en paramètres du constructeur :
 
 ```php
-$product = new class(1.2, "apple", 10)
+$product = new Class(1.2, "apple", 10)
 {
     public function __construct(
         public float $price ,
